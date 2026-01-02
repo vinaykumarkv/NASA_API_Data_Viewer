@@ -31,7 +31,6 @@ date_range = st.date_input(
 )
 
 st.title("NASA API")
-st.sidebar.subheader("Top Images from NASA API")
 
 if st.button("Search"):
     # Validate that both start and end dates were selected
